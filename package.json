@@ -19,7 +19,6 @@
 	"stylelint": {
 		"extends": "@wordpress/stylelint-config/scss"
 	},
-
 	"devDependencies": {
 		"@wordpress/eslint-plugin": "^15.1.0",
 		"@wordpress/prettier-config": "^2.24.0",
@@ -30,6 +29,10 @@
 		"stylelint": "^15.10.3"
 	},
 	"dependencies": {
+		"@wordpress/components": "^25.7.0",
+		"@wordpress/data": "^9.11.0",
+		"@wordpress/date": "^4.41.0",
+		"@wordpress/element": "^5.18.0",
 		"eslint": "^8.23.0",
 		"wp-scripts": "0.0.1-security"
 	}
